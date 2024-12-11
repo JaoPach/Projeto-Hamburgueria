@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hamburgueria Hã? Burguer">
+    <meta name="keywords" content="lanche, hamburguer, hamburgueria, comida, lanchonete, restaurante">
+    <meta name="author" content="Luiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='boxicons/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="shortcut icon" type="imagex/png" href="assets/img/home/logo/ha-tab.ico">
+    <title>Contato | Hã? Burguer</title>
+</head>
+
+<body class="cor-do-body">
+    <header class="cabecalho">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid caixa-nav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse col col-md-5" id="navbarNav">
+                    <ul class="navbar-nav nav-redor-logo">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cardapio.html">Cardápio</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="area-logo col col-md-2">
+                    <a href="index.html"> <img class="logo" src="assets/img/contato/logo/hã-sigla.png" alt="logo Hã? Burguer"></a>
+                </div>
+                <div class="collapse navbar-collapse col col-md-5">
+                    <!-- id="navbarNav"> Devo usar id aqui? porque já tenho o mesmo id na linha 23-->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="quem-somos.html">Quem Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="l-corpo-pagina">
+
+
+        <div class="l-header-main">
+            <h3>CONTATO</h3>
+            <h1>ENTRAR EM CONTATO</h1>
+        </div>
+
+        <div>
+            <form class="l-caixas" id="enviarMensagem">
+
+                <input type="hidden" name="empresa_id" value="1" id="empresa_id">
+
+                <input class="l-cor-fundo-1" type="text" name="nome" placeholder="Nome:" id="nome">
+                <br>
+
+                <input class="l-cor-fundo-2" type="text" name="email" placeholder="E-mail:" id="email">
+                <br>
+
+                <input class="l-cor-fundo-3" type="text" name="telefone" placeholder="Telefone:" id="telefone">
+                <br>
+
+                <textarea class="l-cor-fundo-4" type="text" name="mensagem" placeholder="Digite sua mensagem:" id="mensagem" rows="4"></textarea>
+                <br>
+
+                <button class="l-botao-inscricao" type="submit">ENVIAR</button>
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer class="rodape">
+        <div class="col col-md-2 area-logo-rodape">
+            <a class="link-home-rodape" href="index.html#cabecalho">
+                <img class="logo-rodape" src="assets/img/contato/logo/hã-completo-neutro.png" alt="logo Hã? Burguer">
+                <h4 class="slogan-rodape">Sem dúvida! Vai de <i class="higuen-tamanho higuen">HÃ?</i></h4>
+            </a>
+        </div>
+        <div class="col col-md-3 area-link-cardapio-rodape">
+            <div class="titulos-colunas-rodape">
+                <h5>Conheça nossos produtos!</h5>
+
+            </div>
+                <div class="area-link-rodape">
+                    <a href="cardapio.html">
+                    <h6 class="clique-aqui">Clique aqui</h6>
+                    <i class="icon-seta-direita-rodape bx bx-right-arrow-alt bx-lg"></i>
+                </a>
+                </div>
+        </div>
+        <div class="col col-md-3 area-link-contato-rodape">
+            <div class="titulos-colunas-rodape">
+                <h5>Faça uma pergunta ou sugestão</h5>
+            </div>
+                <div class="area-link-rodape">
+                    <a href="contato.html">
+                    <h6>Clique aqui</h6>
+                    <i class="icon-seta-direita-rodape bx bx-right-arrow-alt bx-lg"></i>
+                </a>
+                </div>
+        </div>
+        <div class="col col-md-3 apps-rodape">
+            <h5>Nos acompanhe nas redes sociais</h5>
+            <ul>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="icons-apps-rodape bx bxl-instagram bx-lg"></i></a></li>
+                <li><a href="https://www.facebook.com/" target="_blank"><i class="icons-apps-rodape bx bxl-facebook bx-lg"></i></a></li>
+                <li><a href="https://www.tiktok.com/pt-BR/" target="_blank"><i class="icons-apps-rodape bx bxl-tiktok bx-lg"></i></a></li>
+                <li><a href="https://x.com/?lang=pt-br" target="_blank"><i class="icons-apps-rodape bx bxl-twitter bx-lg"></i></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><i class="icons-apps-rodape bx bxl-whatsapp bx-lg"></i></a>
+                </ul>
+        </div>
+    </footer>
+    <script src="API_hamburgueria/JavaScript/cadastro.js"></script>
+</body>
+
+</html>
